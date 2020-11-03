@@ -76,5 +76,38 @@ let remainder = 11 % 3;
 
 
 //Compound Assignment with Augmented Addition
+let addMore = 10;
+addMore += 20; //30
+
+
+//Compound Assignment with Augmented Subtraction
+let subMore = 50;
+subMore -= 20; //30
+
+
+//Compound Assignment with Augmented Multiplication
+let multiMore = 3;
+multiMore *= 10; //30
+
+
+//Compound Assignment with Augmented Division
+let divMore = 12;
+divMore /= 3; //4
+
+
+//Declare String Variables  ---  "String literals(strings) are characters enclosed in quotes"
+let name = 'Sadie';//'Sadie'
+
+
+//Escaping Literal Quotes in Strings - In JS you can "escape" a quote from considering it as an end of string quote by placing a backslash(\) in front of the quote
+let myStr = "This is a \"double quoted\" string"; //"This is a "double quoted" string"
+
+
+//Quoting Strings with Single Quotes
+let goodStr = 'He said "hey let\'s go" to her'; //'He said "hey let's go" to her'
+
+
+//Escape Sequences in Strings
+
 
 
