@@ -108,6 +108,36 @@ let goodStr = 'He said "hey let\'s go" to her'; //'He said "hey let's go" to her
 
 
 //Escape Sequences in Strings
+//  \'  Single quote
+//  \"  Double quote
+//  \\  Backslash
+//  \n  New line
+//  \r  Carriage return
+//  \t  Tab
+//  \b  Word boundary
+//  \f  Form feed
 
+
+//Concatenating Strings with Plus Operator
+let newSentence = 'Hello ' + 'Goodbye'; //'Hello Goodbye'
+
+
+//Concatenating Strings with the Plus Equals Operator
+let newSent = 'Hello';
+newSent += 'Goodbye'; //'Hello Goodbye'
+
+
+//Constructing Strings with Variables
+let mysteryInc = meddlingKids
+let capture = 'those' + mysteryInc + 'and that dog'; //'those meddling kids and that dog'
+
+
+//Appending Variables to Strings
+let goDo = 'get this!!!!';
+let newLine = 'I will ';
+newLine += goDo; //'I will get this!!!!'
+
+
+//Find the Length of a String
 
 
