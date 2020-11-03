@@ -68,3 +68,13 @@ let prod = 2.0 * 3.5; //7
 
 
 //Divide one Decimal by Another with JS
+let quotient = 4.4 / 2.0; //2.2
+
+
+//Finding a Remainder in JS   - Using "Remainder operator" (%)
+let remainder = 11 % 3;
+
+
+//Compound Assignment with Augmented Addition
+
+
