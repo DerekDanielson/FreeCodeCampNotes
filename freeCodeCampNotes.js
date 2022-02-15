@@ -258,7 +258,30 @@ function reusableFunction() {
 reusableFunction(); //'Hi world'
 
 
-//Passing Values to Functions with Arguments
+/*Passing Values to Functions with Arguments  ------- "Parameters" are variables that act as placeholders for the values that are to be input to a function when its called. When a function is defined, it is typically defined along with one or more parameters.  The actual values that are input (or "passed") into a function when it is called are known as arguments*/
+function functionWithArgs(num1, num2) {
+    console.log(num1 + num2);
+}
+
+functionWithArgs(3, 5); // 8
+
+
+//Global Scope and Functions - Local Scope takes over before Global
+var myGlobal = 10; //Global Scope (outside of function)
+
+function func1() {
+    oopsGlobal = 13; //Local Scope
+}
+
+
+//Return a Value from a Function with Return - Can pass values into functions with 'arguments'.  Can use 'return' statement to send a value back out of function.
+function timesFive(num) {
+    return num * 5;
+}
+let answer = timesFive(3); //15
+
+
+//Understanding Value returned from a Function
 
 
 
